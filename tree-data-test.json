@@ -1,0 +1,98 @@
+[
+{
+	"ID": "A",
+	"Alias": "A",
+	"Children": 
+	[
+		{ "ID": "B" },
+		{ "ID": "C" },
+		{ "ID": "D" },
+		{ "ID": "Z" }
+	]
+},
+{
+	"ID": "B",
+	"Alias": "B",
+	"Children": 
+	[
+		{ "ID": "A" },
+		{ "ID": "E"},
+		{ "ID": "F"}
+	]
+},
+{
+	"ID": "C",
+	"Alias": "C",
+	"Children": 
+	[
+		{ "ID": "A" },
+		{ "ID": "G" }
+	]
+},
+{
+	"ID": "D",
+	"Alias": "D",
+	"Children": 
+	[
+		{ "ID": "H" },
+		{ "ID": "I" }
+	]
+},
+{
+	"ID": "E",
+	"Alias": "E",
+	"Children": 
+	[
+		{ "ID": "B" }
+	]
+},
+{
+	"ID": "Z",
+	"Alias": "Z",
+	"Children": 
+	[
+		{ "ID": "A" }
+	]
+},
+{
+	"ID": "F",
+	"Alias": "F",
+	"Children": 
+	[
+		{ "ID": "B" }
+	]
+},
+{
+	"ID": "G",
+	"Alias": "G",
+	"Children": 
+	[
+		{ "ID": "C" }
+	]
+},
+{
+	"ID": "H",
+	"Alias": "H",
+	"Children": 
+	[
+		{ "ID": "D" }
+	]
+},
+{
+	"ID": "I",
+	"Alias": "I",
+	"Children": 
+	[
+		{ "ID": "D" },
+		{ "ID": "J" }
+	]
+},
+{
+	"ID": "J",
+	"Alias": "J",
+	"Children": 
+	[
+		{ "ID": "I" }
+	]
+}
+]
